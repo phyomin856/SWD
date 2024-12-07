@@ -1,0 +1,28 @@
+.container {
+    width: 720px;
+    background-color: lightgreen;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    height: 35 0px;
+    flex-direction: column-reverse;
+}
+
+.col {
+    padding: 10px;
+    width: 200px;
+}
+
+.col:nth-child(1) {
+    background-color: lightblue;
+}
+
+.col:nth-child(2) {
+    background-color: lightgray;
+}
+
+.col:nth-child(3) {
+    background-color: lightpink;
+}

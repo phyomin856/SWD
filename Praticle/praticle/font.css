@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap');
+
+
+@font-face {
+    font-family:"pilowlava" ;
+    src: url("../pilowlava-master/Fonts/Pilowlava-Regular.otf");
+}
+@font-face {
+    font-family: "alex-brush";
+    src: url("../alex-brush/AlexBrush-Regular.ttf");
+}
+.font-a{
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+}
+.font-b{
+    font-family: "alex-brush";
+}
+.font-c{
+    font-family: "pilowlava";
+}

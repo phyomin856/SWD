@@ -1,0 +1,47 @@
+.btn {
+    padding: 0px 20px;
+    font-size: 10px;
+    display: inline-block;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+}
+
+.btn-blue {
+    background-color: var(--blue);
+    color: white;
+    border: 1px solid var(--blue);
+}
+
+.btn-pink {
+    background-color: var(--pink);
+    color: white;
+    border: 1px solid var(--pink);
+}
+
+.btn-blue-outline {
+    background-color: transparent;
+    border: 2px solid var(--blue);
+    color: var(--blue);
+}
+
+.btn-pink-outline {
+    background-color: transparent;
+    border: 2px solid var(--pink);
+    color: var(--pink);
+}
+
+
+
+.btn-shadow {
+    background-color: transparent;
+    border: 2px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+    color: green;
+}
+
+.btn-icon {
+    width: 50px;
+    padding: 0;
+}

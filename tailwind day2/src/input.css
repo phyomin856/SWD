@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .btn{
+ @apply   px-6 py-3 bg-blue-500 rounded-lg text-slate-300 dark:bg-blue-950 dark:text-slate-100 hover:bg-green-800 hover:text-red-400 duration-200 dark:hover:bg-red-600 dark:hover:text-black border-2 border-pink-400
+} */
+
+.btn{
+    @apply px-6 py-3 bg-blue-500 rounded-lg text-slate-300 dark:bg-blue-950 dark:text-slate-100 hover:bg-green-800 hover:text-red-400 duration-200 dark:hover:bg-red-600 dark:hover:text-black
+}
+.test{
+
+}
+.test-1{
+    width: 15px;
+    height: 15px;
+    background-color: gray;
+    text-align: center;
+    display: inline-block;
+}
+.test-2{
+    size: 30px;
+    background-color: gray;
+    text-align: center;
+    display: inline-block;
+}

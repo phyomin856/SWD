@@ -1,0 +1,118 @@
+.obj {
+    background-color: lightgray;
+    display: inline-block;
+}
+
+.obj::before {
+    content: "Phyo";
+    background-color: pink;
+}
+
+.obj::after {
+    content: "Khant";
+    background-color: skyblue;
+}
+
+.para::first-letter {
+    /* font-size: 2rem; */
+}
+
+.para::first-line {
+    color: blue;
+}
+
+.para::selection {
+    background-color: lightgreen;
+    color: gray;
+}
+
+.price-tag {
+    background-color: #377bff;
+    display: inline-block;
+    padding: 0 40px;
+    height: 60px;
+    line-height: 60px;
+    color: whitesmoke;
+    position: relative;
+    margin-left: 60px;
+}
+
+.price-tag::before {
+    content: "";
+    border: 30px solid transparent;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -30px;
+    border-right-color: #377bff;
+    border-left-width: 0;
+}
+
+.price-tag:after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 20px;
+    left: -10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.ribbon {
+    position: relative;
+    display: inline-block;
+}
+
+.rec {
+    width: 200px;
+    height: 50px;
+    background-color: #377bff;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    margin-left: 50px;
+    z-index: 3;
+}
+
+.squl {
+    border: 25px solid #84aaf6;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    border-left-color: transparent;
+}
+
+.squr {
+    border: 25px solid #84aaf6;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: -40px;
+    z-index: 1;
+    border-right-color: transparent;
+}
+
+.squr::before {
+    content: "";
+    border: 5px solid #1d57cb;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+
+.squl::before {
+    content: "";
+    border: 5px solid #1d57cb;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+}

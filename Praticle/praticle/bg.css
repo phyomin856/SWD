@@ -1,0 +1,9 @@
+.gt{
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+    background-image: url(../img/ai-image-generator-one.webp);
+    color: rgba(250, 235, 215, 0.154);
+    background-size: auto 100%;
+    background-clip: text;
+}

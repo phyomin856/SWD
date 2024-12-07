@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 50px;
+}
+
+.main-title {
+    margin-bottom: 50px;
+    /* animation-duration: 1500ms; */
+    /* animation-name: ani;
+    animation-delay: 1500ms;
+    animation-fill-mode: both; */
+}
+
+.box {}
+
+.obj {
+    border: 2px solid black;
+    margin-bottom: 30px;
+    padding: 30px;
+    background: #fff;
+    /* animation-name: ani;
+    animation-duration: 500ms;
+    animation-fill-mode: backwards; */
+}
+
+.slide-in-left {
+    animation-name: slideInLeft;
+    animation-fill-mode: backwards;
+}
+
+.delay-0 {
+    animation-delay: 0ms;
+}
+
+.delay-500 {
+    animation-delay: 500ms;
+}
+
+.delay-1000 {
+    animation-delay: 1000ms;
+}
+
+.speed-500 {
+    animation-duration: 500ms;
+}
+
+.speed-1000 {
+    animation-duration: 1000ms;
+}
+
+.speed-1500 {
+    animation-duration: 1500ms;
+}
+
+.obj-title {
+    margin-bottom: 20px;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-120%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}

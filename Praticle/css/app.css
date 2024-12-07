@@ -1,0 +1,5 @@
+@import "./component/_variables.css";
+@import url("./component/_btn.css");
+@import url(./component/_global.css);
+@import url("./component/_utilitites.css");
+@import url("./component/_text.css");
