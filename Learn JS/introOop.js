@@ -72,16 +72,19 @@
 // console.log(x.drive());
 // console.log(x.#enginePower);
 
-console.log(Date.now());
-console.log(Math.PI);
-console.log(Math.pow(3,4));
+// console.log(Date.now());
+// console.log(Math.PI);
+// console.log(Math.pow(3,4));
 
-const date = new Date();
-console.log(date.toDateString());
-console.log(date.toTimeString());
-console.log(date.getDate());
-console.log(date.getTime());
-console.log(date.getHours());
-console.log(date.getMinutes());
-console.log(date.getDate());
-console.log(date.getMonth());
+// const date = new Date();
+// console.log(date.toDateString());
+// console.log(date.toTimeString());
+// console.log(date.getDate());
+// console.log(date.getTime());
+// console.log(date.getHours());
+// console.log(date.getMinutes());
+// console.log(date.getDate());
+// console.log(date.getMonth());
+
+
+
