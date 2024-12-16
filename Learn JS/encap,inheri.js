@@ -114,7 +114,7 @@ class Bank{
         }
     }
     withDraw(money){
-        if(money < this.money){
+        if(money < this.#money){
             return `You withdraw ${money} from your account`
         }else{
             return "You do not have enough money"
