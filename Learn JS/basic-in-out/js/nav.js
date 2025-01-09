@@ -12,5 +12,6 @@ lists.forEach((list) => {
     console.log(list);
 list.onclick = () => {
      list.classList.toggle("bg-gray-300")
-     const skillCount = 
+     const skillCount = document.querySelectorAll(".list.bg-gray-300")
+     selectSkill.innerText = skillCount.length
 }})
